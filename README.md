@@ -5,7 +5,7 @@
 Read container logs from AWS EKS 
 
 ## Parser
-
+```
 [PARSER]
     Name docker_json
     Format json
@@ -15,7 +15,7 @@ Read container logs from AWS EKS
     # Command      |  Decoder | Field | Optional Action
     # =============|==================|=================
     Decode_Field_As json log
-    
+```
  ## Filter
  
 Use K8s filter to add k8s realted info the to logs.
