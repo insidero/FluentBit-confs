@@ -1,8 +1,9 @@
 # FluentBit-confs
+Config files for FluenBit DaemonSet in k8s. 
 
 ## Input
 
-Read container logs from AWS EKS 
+Read container logs from AWS EKS worker nodes.
 
 ## Parser
 ```
@@ -24,6 +25,6 @@ Use `Nest` filter to remove the default key appended by Fluent-Bit
 
 ## Output
 
-Make sure that TLS is enabled, and the recieving ends key etc is properly populated here.
+Make sure that TLS is enabled, and the recieving ends key etc. is properly populated here.
 
 For debugging use `stdout`
